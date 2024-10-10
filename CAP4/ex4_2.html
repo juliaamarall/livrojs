@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso Ideal</title>
+</head>
+<body>
+    <h1>Programa Cálculo do Peso Ideal</h1>
+    <hr>
+
+    <form>
+        <div>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome">
+        </div>
+
+        <div>
+            <label for="sexo">Sexo: </label>
+            <input type="radio" name="sexo" id="feminino" required>Feminino
+            <input type="radio" name="sexo" id="masculino" required>Masculino
+        </div>
+
+        <div>
+            <label for="altura">Altura: </label>
+            <input type="text" id="altura">
+        </div>
+        <input type="submit" value="Calcular PESO IDEAL">
+        <input type="reset" value="Limpar"> 
+    </form>
+
+    <h2 id="resposta"></h2>
+
+    <script src="js/ex4_2.js"></script>
+</body>
+</html>
